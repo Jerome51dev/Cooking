@@ -1,0 +1,35 @@
+<div style="width:400px">
+                <% if(error && error.length>0){ %>
+                <div class="warning-message">
+                    <div class="header">
+                        <%= error %>
+                    </div>
+                </div>
+                <% } %>
+                <% if(success && success.length > 0) { %>
+                <div class="success-message">
+                    <div class="header">
+                        <%= success%>
+                    </div>
+                </div>
+                <% } %>
+            </div>
+
+
+
+<div style="width:400px">
+                <% if(error && error.length>0){ %>
+                <div class="warning-message">
+                    <div class="header">
+                        <%= error %>
+                    </div>
+                </div>
+                <% } %>
+                <% if(success && success.length > 0) { %>
+                <div class="success-message">
+                    <div class="header">
+                        <%= success%>
+                    </div>
+                </div>
+                <% } %>
+            </div>
